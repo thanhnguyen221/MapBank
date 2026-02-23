@@ -1,22 +1,22 @@
 # 🏦 Bank & ATM Geographic Management System
 
-## 📖 Giới thiệu (Overview)
-Đây là hệ thống Web ứng dụng bản đồ GIS (Geographic Information System) cho phép quản lý, phân bổ và trực quan hóa vị trí của các Ngân hàng, Chi nhánh và cây ATM. Dự án tập trung vào kiến trúc cơ sở dữ liệu sạch (DRY) và tối ưu hóa hiệu suất truy vấn không gian.
+## 📖 Overview
+This is a Web-based Geographic Information System (GIS) application for managing, distributing, and visualizing the locations of Banks, Branches, and ATMs. The project focuses on a clean database architecture (DRY) and optimizing spatial query performance.
 
-## ✨ Tính năng nổi bật (Key Features)
-* **Bản đồ trực quan:** Hiển thị và phân cụm (clustering) chính xác tọa độ vị trí của hệ thống Bank/Branch/ATM.
-* **Quản trị phân quyền (Admin Dashboard):** Giám sát trạng thái hoạt động của ATM (Active/Maintenance/Offline) theo thời gian thực.
-* **Tối ưu Database:** Ứng dụng Database Indexing chiến lược trên các trường Vĩ độ/Kinh độ giúp load bản đồ siêu tốc.
-* **Bảo mật luồng xác thực:** Quản lý Session chặt chẽ, bảo vệ form bằng CSRF Token và ngăn chặn triệt để lỗ hổng Open Redirect.
+## ✨ Key Features
+* **Interactive Map:** Accurately displays and clusters the location coordinates of the Bank/Branch/ATM network.
+* **Admin Dashboard & Authorization:** Monitors the operational status of ATMs (Active/Maintenance/Offline) in real-time.
+* **Database Optimization:** Applies strategic Database Indexing on Latitude/Longitude fields for lightning-fast map loading.
+* **Authentication Security:** Strict session management, form protection using CSRF Tokens, and thorough prevention of Open Redirect vulnerabilities.
 
-## 🛠 Công nghệ sử dụng (Tech Stack)
+## 🛠 Tech Stack
 * **Backend:** Python, Django
-* **Database:** SQLite (Môi trường dev) / PostgreSQL
+* **Database:** SQLite (Dev environment) / PostgreSQL
 * **Frontend:** HTML, CSS, JavaScript 
 
-## 🚀 Hướng dẫn cài đặt (Installation)
+## 🚀 Installation
 
-**1. Clone dự án về máy**
+**1. Clone the repository**
 ```bash
 git clone [https://github.com/thanhnguyen221/MapBank.git](https://github.com/thanhnguyen221/MapBank.git)
 cd MapBank/bank_project
