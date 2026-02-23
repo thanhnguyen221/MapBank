@@ -1,0 +1,18 @@
+# Môi trường ảo Python
+.venv/
+venv/
+env/
+.env
+
+# MacOS files
+.DS_Store
+
+# File cache của Python
+__pycache__/
+*.pyc
+
+# Database cục bộ
+db.sqlite3
+
+# File media (ảnh người dùng upload lên)
+media/
